@@ -1,0 +1,7 @@
+common:
+  tags: fibonacci fib
+  harness: ztest
+
+tests:
+  components.fibonacci.turn_on:
+    tags: sw_test
